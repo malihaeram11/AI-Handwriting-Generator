@@ -1,0 +1,20 @@
+# Node dependencies
+frontend/node_modules/
+
+# Python virtual environment
+backend/venv/
+
+# OS files
+.DS_Store
+
+# Log files
+*.log
+
+# Python cache
+__pycache__/
+
+# VSCode settings (optional)
+.vscode/
+
+# Env files (optional)
+.env

@@ -1,0 +1,83 @@
+/* Use a nice Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  background: #f0f4f8;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.container {
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 15px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 1rem;
+  resize: vertical;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+textarea:focus {
+  border: 2px solid #4CAF50;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #43a047;
+}
+
+img {
+  margin: 50px auto 0 auto;   /* Adds more top space & centers */
+  display: block;             /* Makes margin auto work */
+  max-width: 100%;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.footer {
+  margin-top: 60px;           /* Extra space above footer */
+  font-size: 0.9rem;
+  color: #777;
+  text-align: center;         /* Center the footer text */
+}
+
+.footer span {
+  color: #e63946;
+}
+
